@@ -1,0 +1,74 @@
+.profile {
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  gap: 12px;
+  width: 320px;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.about {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 400;
+}
+
+.btn1 {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  align-self: stretch;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.btn1:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+
+.btn1:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
